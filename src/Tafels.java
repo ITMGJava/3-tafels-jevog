@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 public class Tafels {
     public Tafels() {
     }
 
     public static void main(String[] args) {
-        int x = 8;
+        int x = 5;
         int a = x * 1;
         int b = x * 2;
         int c = x * 3;
@@ -14,15 +16,16 @@ public class Tafels {
         int h = x * 8;
         int i = x * 9;
         int j = x * 10;
-        System.out.println(" 1x8=" + a);
-        System.out.println(" 2x8=" + b);
-        System.out.println(" 3x8=" + c);
-        System.out.println(" 4x8=" + d);
-        System.out.println(" 5x8=" + e);
-        System.out.println(" 6x8=" + f);
-        System.out.println(" 7x8=" + g);
-        System.out.println(" 8x8=" + h);
-        System.out.println(" 9x8=" + i);
-        System.out.println("10x8=" + j);
+        System.out.println(" 1x" + x + "=" + a);
+        System.out.println(" 2x" + x + "=" + b);
+        System.out.println(" 3x" + x + "=" + c);
+        System.out.println(" 4x" + x + "=" + d);
+        System.out.println(" 5x" + x + "=" + e);
+        System.out.println(" 6x" + x + "=" + f);
+        System.out.println(" 7x" + x + "=" + g);
+        System.out.println(" 8x" + x + "=" + h);
+        System.out.println(" 9x" + x + "=" + i);
+        System.out.println("10x" + x + "=" + j);
+
     }
 }
