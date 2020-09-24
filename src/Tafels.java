@@ -5,7 +5,17 @@ public class Tafels {
     }
 
     public static void main(String[] args) {
-        int x = 5;
+
+        String y = "voer getal in"; //opdrachtregel
+        System.out.println(y);
+
+        var s = new Scanner(System.in); //tellen input cijfers
+        var getal = s.nextInt(); //geef input in cijfers
+
+        String z = "De tafel van " +getal +" is:"; //antwoordregel
+        System.out.println(z);
+
+        int x = getal;
         int a = x * 1;
         int b = x * 2;
         int c = x * 3;

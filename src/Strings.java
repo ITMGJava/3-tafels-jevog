@@ -9,7 +9,7 @@ public class Strings {
        var tekst = s.nextLine(); // geef input in tekst
         System.out.println(tekst.length()); //tel letters
 
-        String y = "voer cijfer in"; //opdrachtregel
+        String y = "voer getal in"; //opdrachtregel
         System.out.println(y);
 
         var c = new Scanner(System.in); //tellen input cijfers
